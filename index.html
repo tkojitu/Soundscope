@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="module" src="./scripts/main.js"></script>
+</head>
+<body>
+<p>
+<button id="buttonPlay">Play</button>
+<button id="buttonStop">Stop</button>
+</p>
+<table>
+	<tr>
+	<th>Select Sound:</th>
+	<td id="radios">
+		<input type="radio" name="grp_option1" value="1" id="m1" checked="checked"><label for="m1">Sine</label> <br> 
+		<input type="radio" name="grp_option1" value="2" id="m2"><label for="m2">Triangle</label>
+		<input type="radio" name="grp_option1" value="3" id="m3"><label for="m3">Square</label><br> 
+		<input type="radio" name="grp_option1" value="4" id="m4"><label for="m4">Sawtooth</label> 
+	</td>
+	</tr>
+	<tr>
+	<th>Time Domain<br />Wave Data</th>
+	<td><canvas id="canvas1" width="256" height="255" style="border:1px solid #ccc;"></canvas></td>
+	</tr>
+	<tr>
+	<th>Frequency<br />Spectrum</th>
+	<td><canvas id="canvas2" width="256" height="255" style="border:1px solid #ccc;"></canvas></td>
+	</tr>
+</table>
+</body>
+</html>
