@@ -59,14 +59,6 @@ export default class {
 		return "";
 	}
 
-	getByteTimeDomainData() {
-		return this.player.getByteTimeDomainData();
-	}
-
-	getByteFrequencyData() {
-		return this.player.getByteFrequencyData();
-	}
-	
 	stop() {
 		this.player.stop();
 	}
